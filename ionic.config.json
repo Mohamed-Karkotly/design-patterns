@@ -1,0 +1,7 @@
+{
+  "name": "design-patterns",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
