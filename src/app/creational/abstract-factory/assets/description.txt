@@ -1,0 +1,10 @@
+"Factory Pattern" is one of the "Creational" design patterns.
+In the Factory pattern, we create an object without exposing the creation logic to the client and refer to newly created objects using a common interface.
+The factory design pattern is used when we have a superclass with multiple sub-classes and based on input, we need to return one sub-class. This pattern takes out the responsibility of the instantiation of a class from the client program to the factory class.
+
+• Benefits:
+Factory design pattern provides an approach to code for interface rather than implementation.
+Factory pattern removes the instantiation of actual implementation classes from client code. Factory pattern makes our code more robust, less coupled, and easy to extend. For example, we can easily change PC class implementation because the client program is unaware of this.
+Factory pattern provides abstraction between implementation and client classes through inheritance.
+
+Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
