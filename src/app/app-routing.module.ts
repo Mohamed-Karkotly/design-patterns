@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: 'creational',
+    loadChildren: () =>
+      import('./creational/creational.module').then((m) => m.CreationalModule),
+  },
+];
 
 @NgModule({
   imports: [
